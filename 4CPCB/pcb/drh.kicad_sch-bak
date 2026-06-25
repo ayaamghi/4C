@@ -3854,107 +3854,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "root_0_TESTPOINT_MiscParts.IntLib_1"
 			(pin_numbers
 				(hide yes)
@@ -5068,6 +4967,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 139.7) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76005fdb-85bf-42c1-9e02-2440f0e6ff7b")
+	)
+	(wire
+		(pts
 			(xy 240.03 93.98) (xy 247.65 93.98)
 		)
 		(stroke
@@ -5936,16 +5845,6 @@
 		)
 		(uuid "5a82211d-8638-4619-8c8b-0a597124961c")
 	)
-	(label "SHUNT_TOP"
-		(at 196.85 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62be9e51-6ac8-444d-9737-0511320c23f9")
-	)
 	(label "SH1"
 		(at 107.95 96.52 0)
 		(effects
@@ -6025,16 +5924,6 @@
 			(justify left bottom)
 		)
 		(uuid "c50ade7d-6e86-4dac-9110-8a16ffad4e7a")
-	)
-	(label "SHUNT_TOP"
-		(at 247.65 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3debcc9-9b8d-4c9a-a5cc-8c306d1346e7")
 	)
 	(label "OUT2"
 		(at 224.79 73.66 0)
@@ -6161,6 +6050,17 @@
 			(justify left bottom)
 		)
 		(uuid "bc21e203-729d-444f-98e4-cf1feefdabbe")
+	)
+	(hierarchical_label "IDRIVE"
+		(shape input)
+		(at 52.07 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d52b6b50-3bbb-4d72-b0cd-2daf4c2ba020")
 	)
 	(hierarchical_label "nSLEEP"
 		(shape input)
@@ -6589,7 +6489,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "02875c8e-bd39-438b-8b45-1292276efdbf")
 		(property "Reference" "C11"
@@ -8389,7 +8289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 176.53 60.96 0)
 			(effects
 				(font
@@ -8735,7 +8635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C95177"
 			(at 176.53 60.96 0)
 			(effects
 				(font
@@ -9077,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0805"
 			(at 34.29 142.24 0)
 			(effects
 				(font
@@ -9423,7 +9323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C17414"
 			(at 34.29 142.24 0)
 			(effects
 				(font
@@ -10036,7 +9936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0603"
+		(property "Footprint" "Easyeda:C0805"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10422,7 +10322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C28323"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -10560,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0603"
+		(property "Footprint" "Easyeda:C0805"
 			(at 34.29 81.28 0)
 			(effects
 				(font
@@ -10946,7 +10846,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C28323"
 			(at 34.29 81.28 0)
 			(effects
 				(font
@@ -11010,7 +10910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -11356,7 +11256,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C95177"
 			(at 267.97 86.36 0)
 			(effects
 				(font
@@ -11550,7 +11450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0805"
 			(at 125.73 144.78 0)
 			(effects
 				(font
@@ -11896,7 +11796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C17414"
 			(at 125.73 144.78 0)
 			(effects
 				(font
@@ -11960,7 +11860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -12316,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25918"
+		(property "LCSC" "C2930127"
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -12777,7 +12677,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "629cdcc3-2a50-4799-98f1-738768ca5d40")
 		(property "Reference" "C10"
@@ -13240,7 +13140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 176.53 86.36 0)
 			(effects
 				(font
@@ -13586,7 +13486,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C95177"
 			(at 176.53 86.36 0)
 			(effects
 				(font
@@ -13650,7 +13550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0603"
+		(property "Footprint" "Easyeda:C0805"
 			(at 41.91 83.82 0)
 			(effects
 				(font
@@ -14036,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C28323"
 			(at 41.91 83.82 0)
 			(effects
 				(font
@@ -14486,7 +14386,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3350"
+		(property "LCSC" "C2960393"
 			(at 267.97 38.1 0)
 			(effects
 				(font
@@ -15230,7 +15130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0805"
 			(at 39.37 139.7 0)
 			(effects
 				(font
@@ -15576,7 +15476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C17414"
 			(at 39.37 139.7 0)
 			(effects
 				(font
@@ -15607,85 +15507,6 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e752f89-cd82-4a38-ad8f-5e6244ead6f8")
-		(property "Reference" "#PWR0122"
-			(at 55.88 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fa048e9-b536-4a62-93b5-ff00a93a2b46")
-		)
-		(instances
-			(project ""
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -16744,7 +16565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0603"
+		(property "Footprint" "Easyeda:C0805"
 			(at 257.81 35.56 0)
 			(effects
 				(font
@@ -17130,7 +16951,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C28323"
 			(at 257.81 35.56 0)
 			(effects
 				(font
@@ -17342,7 +17163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 31.75 109.22 0)
 			(effects
 				(font
@@ -17728,7 +17549,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 31.75 109.22 0)
 			(effects
 				(font
@@ -17974,7 +17795,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "9dcbc932-97ee-459e-bf79-9169f5d7eb38")
 		(property "Reference" "C13"
@@ -18815,9 +18636,9 @@
 		(at 219.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a949e6c7-9770-4bca-a86a-c224a1a7356c")
 		(property "Reference" "H1"
 			(at 217.17 88.9 0)
@@ -19429,7 +19250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 267.97 60.96 0)
 			(effects
 				(font
@@ -19775,7 +19596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17168"
+		(property "LCSC" "C95177"
 			(at 267.97 60.96 0)
 			(effects
 				(font
@@ -20611,7 +20432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 52.07 119.38 0)
 			(effects
 				(font
@@ -20997,7 +20818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 52.07 119.38 0)
 			(effects
 				(font
@@ -21061,7 +20882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0805"
 			(at 49.53 109.22 0)
 			(effects
 				(font
@@ -22755,7 +22576,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3350"
+		(property "LCSC" "C2960393"
 			(at 186.69 38.1 0)
 			(effects
 				(font
@@ -22797,7 +22618,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "ee86585f-b14d-40f9-a6c7-6daf208caa8f")
 		(property "Reference" "C12"

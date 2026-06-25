@@ -529,7 +529,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -541,13 +541,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -559,13 +559,415 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE MANUFACTURER",
+          "name": "ALTERNATE MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE PARTNUMBER",
+          "name": "ALTERNATE PARTNUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAP_CASE",
+          "name": "CAP_CASE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAP_F",
+          "name": "CAP_F",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CHTYPE",
+          "name": "CHTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CLASSNAME",
+          "name": "CLASSNAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPTYPE",
+          "name": "COMPTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EIA_CODE",
+          "name": "EIA_CODE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR_OHM",
+          "name": "ESR_OHM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IDSMAX_A",
+          "name": "IDSMAX_A",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRMS_A",
+          "name": "IRMS_A",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONDATE",
+          "name": "LATESTREVISIONDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONNOTE",
+          "name": "LATESTREVISIONNOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTTYPE",
+          "name": "MOUNTTYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOTE",
+          "name": "NOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGEREFERENCE",
+          "name": "PACKAGEREFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTNUMBER",
+          "name": "PARTNUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POLARIZED",
+          "name": "POLARIZED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER_W",
+          "name": "POWER_W",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHED",
+          "name": "PUBLISHED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "QGTYP_NC",
+          "name": "QGTYP_NC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDSON45_OHM",
+          "name": "RDSON45_OHM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RES_OHM",
+          "name": "RES_OHM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES",
+          "name": "SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 1",
+          "name": "SUPPLIER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 2",
+          "name": "SUPPLIER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER 3",
+          "name": "SUPPLIER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 1",
+          "name": "SUPPLIER PART NUMBER 1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 2",
+          "name": "SUPPLIER PART NUMBER 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART NUMBER 3",
+          "name": "SUPPLIER PART NUMBER 3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOLCREATOR",
+          "name": "SYMBOLCREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOLVERSION",
+          "name": "SYMBOLVERSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TAMAX_C",
+          "name": "TAMAX_C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TAMIN_C",
+          "name": "TAMIN_C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TECHNOLOGY",
+          "name": "TECHNOLOGY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPCO",
+          "name": "TEMPCO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE_%",
+          "name": "TOLERANCE_%",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "U/M",
+          "name": "U/M",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE1",
+          "name": "VALUE1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE2",
+          "name": "VALUE2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUEDISPLAYED",
+          "name": "VALUEDISPLAYED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE_CODE",
+          "name": "VALUE_CODE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VDC_V",
+          "name": "VDC_V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VDSMAX_V",
+          "name": "VDSMAX_V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VGS_V",
+          "name": "VGS_V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AC_DERATING",
+          "name": "AC_DERATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

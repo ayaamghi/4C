@@ -4789,131 +4789,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5606,24 +5481,6 @@
 		(uuid "10f9ff08-11c5-4081-82de-5a2bcefd760b")
 	)
 	(junction
-		(at 114.3 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16b0f299-c072-493d-919b-29b3581154c0")
-	)
-	(junction
-		(at 25.4 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e394784-3c29-43be-91f8-8e8619e1fb6d")
-	)
-	(junction
-		(at 120.65 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "414b86f7-36e0-4967-a3ec-650712c29cf7")
-	)
-	(junction
 		(at 149.86 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5907,16 +5764,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 29.21) (xy 25.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c18a394-cf21-415d-93cb-9209668bb28c")
-	)
-	(wire
-		(pts
 			(xy 132.08 110.49) (xy 154.94 110.49)
 		)
 		(stroke
@@ -6184,16 +6031,6 @@
 			(type default)
 		)
 		(uuid "339e4def-0c03-4857-bec5-fd62f7f91967")
-	)
-	(wire
-		(pts
-			(xy 104.14 38.1) (xy 104.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f9aed8-102d-419f-b9d4-c1358d1cb638")
 	)
 	(wire
 		(pts
@@ -6497,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 27.94) (xy 25.4 29.21)
+			(xy 25.4 27.94) (xy 25.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6847,16 +6684,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 27.94) (xy 125.73 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86beb49f-399f-4474-8d92-2534b535ab1c")
-	)
-	(wire
-		(pts
 			(xy 21.59 48.26) (xy 31.75 48.26)
 		)
 		(stroke
@@ -6944,16 +6771,6 @@
 			(type default)
 		)
 		(uuid "94810216-076a-4f4a-89e5-7c99a8185f82")
-	)
-	(wire
-		(pts
-			(xy 104.14 27.94) (xy 114.3 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d264bf-ea4c-47c8-be74-f487cc01b11f")
 	)
 	(wire
 		(pts
@@ -7517,7 +7334,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 27.94) (xy 120.65 27.94)
+			(xy 114.3 27.94) (xy 125.73 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8933,7 +8750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0805"
 			(at 182.88 30.48 0)
 			(effects
 				(font
@@ -9319,7 +9136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C28323"
 			(at 182.88 30.48 0)
 			(effects
 				(font
@@ -9371,7 +9188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0805"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -9757,7 +9574,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C28323"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -9864,8 +9681,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095608c1-38e8-4cb2-ad13-938fae9c66ce")
 		(property "Reference" "U7"
@@ -9981,7 +9798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -10367,7 +10184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -10463,8 +10280,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11541c89-6ff4-474d-9a63-233a27441733")
 		(property "Reference" "#PWR0120"
@@ -10663,8 +10480,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b47fa81-9b39-457f-ab44-bf485b48b73a")
 		(property "Reference" "J9"
@@ -10736,8 +10553,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bdd1e9c-8936-40cf-8d62-a02279b19144")
 		(property "Reference" "J4"
@@ -10947,6 +10764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "20bb6cf5-9962-4833-86c0-004aa87a2adb")
 		(property "Reference" "U6"
 			(at 60.96 67.31 0)
@@ -11023,444 +10841,6 @@
 	)
 	(symbol
 		(lib_id "Capacitor_Ceramic:root_1_C1608X7R1H104K_Capacitor_Ceramic.IntLib")
-		(at 104.14 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "249b492b-9f34-4bee-9e09-0c2c6756d17b")
-		(property "Reference" "C73"
-			(at 106.426 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "${PARTNUMBER}"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Easyeda:C0402"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP, CERM, 0.1uF, 50V, +/-10%, X7R, 0603"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POLARIZED" "N"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPTYPE" "Capacitor"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SYMBOLVERSION" "2008-07-09"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0.1uF"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTNUMBER" "C1608X7R1H104K"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUEDISPLAYED" "0.1µF"
-			(at 106.426 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER" "TDK"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGEREFERENCE" "0603"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ROHS" "Y"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "U/M" "EA"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAP_F" "0.0000001"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE_%" "10"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ESR_OHM" "0.017"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE1" "0.017 ohm"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VDC_V" "50"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE2" "50V"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNTTYPE" "SMT"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TECHNOLOGY" "Ceramic"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TEMPCO" "X7R"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IRMS_A" ""
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TAMIN_C" "-55"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TAMAX_C" "125"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CAP_CASE" "0603"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHED" "2008-06-19"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PUBLISHER" "Texas Instruments"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" "2014-05-28"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1DESCRIPTION" "Datasheet link"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENTLINK1URL" "http://www.tdk.co.jp/tefe02/e412_c.pdf"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE PARTNUMBER" ""
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE MANUFACTURER" ""
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "445-1314-1-ND"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 2" "Farnell"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 2" "1118182"
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 3" ""
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 3" ""
-			(at 101.854 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "602c1934-5981-4fc2-af34-910df68cd113")
-		)
-		(pin "2"
-			(uuid "9b5d7740-7f3c-482c-90e0-cd04057fcbb8")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor_Ceramic:root_1_C1608X7R1H104K_Capacitor_Ceramic.IntLib")
 		(at 134.62 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11487,7 +10867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -11873,7 +11253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 134.62 33.02 0)
 			(effects
 				(font
@@ -11903,8 +11283,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26015e93-b8a8-41a7-8254-725f4c5d892e")
 		(property "Reference" "J15"
@@ -12131,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -12517,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -12547,8 +11927,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aef5bf9-3e22-4f05-ab43-8946f0e4dff3")
 		(property "Reference" "#PWR099"
@@ -12741,79 +12121,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "325242b7-7b82-403a-94d0-0c663288df6a")
-		(property "Reference" "#PWR0127"
-			(at 104.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5e4c395-0799-4248-87ca-64bf8254bf3d")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 40.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32e48983-985e-45fe-8bfa-f2024477369a")
 		(property "Reference" "J3"
@@ -12888,8 +12202,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "335a5a9c-0b4d-48ac-87c2-08c51299c6ad")
 		(property "Reference" "J14"
@@ -13169,8 +12483,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a320948-04b7-43b4-9943-6852cdf446d5")
 		(property "Reference" "J5"
@@ -13237,73 +12551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a9dc2f8-4d42-47a1-ab38-e25d25071a1a")
-		(property "Reference" "#PWR0128"
-			(at 29.21 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 21.59 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f38b431-f13f-4b26-a19b-cd07849f2d0e")
-		)
-		(instances
-			(project ""
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitor_Ceramic:root_1_GRM32ER71H106KA12L_Capacitor_Ceramic.IntLib")
 		(at 153.67 33.02 0)
 		(unit 1)
@@ -13331,7 +12578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0805"
 			(at 153.67 33.02 0)
 			(effects
 				(font
@@ -13717,7 +12964,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15525"
+		(property "LCSC" "C440198"
 			(at 153.67 33.02 0)
 			(effects
 				(font
@@ -13747,8 +12994,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61af56f3-d9b9-4e16-8fa1-f3d1503f38b0")
 		(property "Reference" "R47"
@@ -13769,7 +13016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 97.282 106.68 90)
 			(effects
 				(font
@@ -13796,7 +13043,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C22787"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -13826,8 +13073,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "636f6e15-45b1-40d5-9de6-c856ef3f671e")
 		(property "Reference" "#PWR094"
@@ -13960,8 +13207,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "643b8ef1-c78b-4815-ba8b-6e596305e5bc")
 		(property "Reference" "#PWR0101"
@@ -14092,8 +13339,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b31b79-2e4c-4980-81d2-a6e4857b6b55")
 		(property "Reference" "#PWR085"
@@ -14159,8 +13406,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650e75da-6a07-4ec9-88af-403b64d8e9c0")
 		(property "Reference" "#PWR097"
@@ -14226,8 +13473,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67060feb-b763-45cb-8560-8cb6c0d3563b")
 		(property "Reference" "#PWR0103"
@@ -14292,8 +13539,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682d67ec-4def-4999-aa46-b1f7fde40321")
 		(property "Reference" "#PWR086"
@@ -14499,8 +13746,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78aadc85-1470-46dd-b5d4-29a908484873")
 		(property "Reference" "J8"
@@ -14594,7 +13841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -14980,7 +14227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 140.97 54.61 0)
 			(effects
 				(font
@@ -15660,8 +14907,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be0dc8c-266e-4d7b-bb84-7097f45b4075")
 		(property "Reference" "#PWR093"
@@ -15722,79 +14969,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 120.65 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d70dcf5-adff-49c4-b521-6585ed9739c5")
-		(property "Reference" "#PWR0126"
-			(at 120.65 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 120.65 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9e46440-3197-4952-9c10-4e454b4fb5aa")
-		)
-		(instances
-			(project ""
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 31.75 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ec5c773-62a9-4cab-b770-d66f30da6096")
 		(property "Reference" "J6"
@@ -16199,8 +15380,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e0fca2d-dd34-4c07-b1b6-28ea63f94ede")
 		(property "Reference" "#PWR096"
@@ -16266,8 +15447,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "9e6a5a3f-aa73-4ef8-b657-4c05102533c4")
 		(property "Reference" "#PWR0121"
 			(at 219.71 130.81 0)
@@ -16397,8 +15578,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1789764-46ce-4e92-af1e-859b629c681e")
 		(property "Reference" "J24"
@@ -16489,8 +15670,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30c00cb-515c-4011-ab67-559efa922a32")
 		(property "Reference" "#PWR079"
@@ -16556,8 +15737,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a59a8e13-5f4c-4f11-beed-a52e856f945a")
 		(property "Reference" "#PWR0102"
@@ -16820,8 +16001,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "af3b4773-828b-4ce3-a100-dc61b9e061fd")
 		(property "Reference" "H5"
 			(at 35.56 116.84 0)
@@ -17950,7 +17131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 143.51 33.02 0)
 			(effects
 				(font
@@ -18336,7 +17517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 143.51 33.02 0)
 			(effects
 				(font
@@ -18366,8 +17547,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda3797c-fd72-4570-81a6-6a3488fcf4e9")
 		(property "Reference" "#PWR095"
@@ -18499,8 +17680,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf8036bf-2c0c-4617-9697-b9668cbb6e63")
 		(property "Reference" "#PWR0100"
@@ -18698,8 +17879,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18d6509-56b3-40c2-b602-9f0ddf40a755")
 		(property "Reference" "J23"
@@ -18772,8 +17953,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ed81ef-19c9-420b-8626-049910564b04")
 		(property "Reference" "#PWR0104"
@@ -18904,8 +18085,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7739e7a-7dc3-4383-a518-637a41ca2a62")
 		(property "Reference" "#PWR098"
@@ -18971,8 +18152,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0ebc8b-7f8c-453d-97b8-1078beb0033c")
 		(property "Reference" "J7"
@@ -19198,7 +18379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 15.24 64.77 0)
 			(effects
 				(font
@@ -19544,7 +18725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C95177"
 			(at 15.24 64.77 0)
 			(effects
 				(font
@@ -19727,7 +18908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -20113,7 +19294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -20143,8 +19324,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea14d392-9cc5-43fd-92bf-4475629b655a")
 		(property "Reference" "J17"
@@ -20217,8 +19398,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec0db125-13c7-4d2e-882e-67f351220f0f")
 		(property "Reference" "R48"
@@ -20237,7 +19418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 102.87 99.568 90)
 			(effects
 				(font
@@ -20264,7 +19445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25804"
 			(at 102.87 97.79 90)
 			(effects
 				(font
@@ -20316,7 +19497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:R0402"
+		(property "Footprint" "Easyeda:R0603"
 			(at 21.59 64.77 0)
 			(effects
 				(font
@@ -20662,7 +19843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C23548"
 			(at 21.59 64.77 0)
 			(effects
 				(font
@@ -20691,9 +19872,9 @@
 		(at 30.48 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f0f8017f-7c44-4e88-a4ea-5d14f7f24464")
 		(property "Reference" "H6"
 			(at 35.56 107.95 0)
@@ -21011,8 +20192,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5cb512e-8f50-48d9-90a0-15db65b3f58b")
 		(property "Reference" "J16"
@@ -21152,8 +20333,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86ecac0-9482-4f3f-ac33-011cb1d3be83")
 		(property "Reference" "#PWR0106"
@@ -21218,8 +20399,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc8af4e2-a998-4540-b23e-682bb3bd6959")
 		(property "Reference" "#PWR0105"
@@ -21512,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Easyeda:C0402"
+		(property "Footprint" "Easyeda:C0603"
 			(at 125.73 33.02 0)
 			(effects
 				(font
@@ -21898,7 +21079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C440198"
 			(at 125.73 33.02 0)
 			(effects
 				(font
