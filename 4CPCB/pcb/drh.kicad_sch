@@ -1530,321 +1530,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DRV8701EVM-altium-import:3.3V_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '3.3V'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "3.3V_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DRV8701EVM-altium-import:AVDD_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "AVDD"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'AVDD'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AVDD_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DRV8701EVM-altium-import:DVDD_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "DVDD"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'DVDD'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DVDD_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DRV8701EVM-altium-import:GND_POWER_GROUND"
 			(power)
 			(exclude_from_sim no)
@@ -3854,6 +3539,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5846,6 +5656,16 @@
 		)
 		(uuid "fedb3a12-a334-4efc-bfdc-6e742a9d4d72")
 	)
+	(label "DVDD"
+		(at 113.03 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06fbfefa-7c38-4e94-93e1-a3734291bb1d")
+	)
 	(label "GL2"
 		(at 107.95 116.84 0)
 		(effects
@@ -5906,6 +5726,16 @@
 		)
 		(uuid "4576e00a-4758-443d-975f-c00c634b973c")
 	)
+	(label "AVDD"
+		(at 143.51 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b706ae1-6cb3-4096-97f7-c02e4123c2d2")
+	)
 	(label "S_N"
 		(at 107.95 127 0)
 		(effects
@@ -5955,6 +5785,16 @@
 			(justify left bottom)
 		)
 		(uuid "65ef7fb3-3a97-49ce-9b07-5a0f01bd79c9")
+	)
+	(label "AVDD"
+		(at 92.71 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81bddba1-e9d1-41ae-90f0-4968367e7fee")
 	)
 	(label "VCP"
 		(at 57.15 109.22 0)
@@ -7244,8 +7084,8 @@
 		(at 143.51 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "1cf4cdf2-68b9-4e07-a23a-429f2b3604f5")
 		(property "Reference" "R5"
@@ -8356,6 +8196,84 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 39.37 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311a5ce6-9295-4176-bf69-b55950b23ae6")
+		(property "Reference" "#PWR04"
+			(at 39.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 39.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fb407e5-2bee-4358-97c7-bd50e531df26")
+		)
+		(instances
+			(project ""
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10453,80 +10371,6 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8701EVM-altium-import:DVDD_BAR")
-		(at 113.03 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c4ce5e8-e2c7-4eda-9779-83f3589cd359")
-		(property "Reference" "#PWR09"
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DVDD"
-			(at 113.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6fa552b5-3710-4c07-8815-abbb52a69c9a")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR057")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR09")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16569,154 +16413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DRV8701EVM-altium-import:3.3V_BAR")
-		(at 39.37 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d42bcad-263d-4287-bce7-5160a5bc975d")
-		(property "Reference" "#PWR05"
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 39.37 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3c20b478-c325-4aa7-9374-da8909faadd5")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8701EVM-altium-import:3.3V_BAR")
-		(at 34.29 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ec3f8cd-8c5d-455d-9109-6e973ccf4cb2")
-		(property "Reference" "#PWR04"
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 34.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c49e0430-4fcc-431b-b5e0-c50c37dd3463")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR020")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitor_Ceramic:root_3_GRM188R70J105KA01D_Capacitor_Ceramic.IntLib")
 		(at 257.81 35.56 0)
 		(unit 1)
@@ -17161,6 +16857,84 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95a27360-af81-4c36-9b07-600e4a55c006")
+		(property "Reference" "#PWR036"
+			(at 34.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "816e6472-a70e-4904-b7ee-34ca3a9f56c6")
+		)
+		(instances
+			(project ""
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18414,8 +18188,8 @@
 		(at 143.51 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(uuid "a67f6e9e-d040-441e-ac89-9d0c1ff654f9")
 		(property "Reference" "R6"
@@ -20010,80 +19784,6 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8701EVM-altium-import:AVDD_BAR")
-		(at 92.71 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c079045f-2ca2-424c-807d-3f777f2c45e4")
-		(property "Reference" "#PWR07"
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 92.71 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "80d4b63c-c7ac-4955-9082-59e4166d8abe")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR055")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -21812,80 +21512,6 @@
 				)
 				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DRV8701EVM-altium-import:AVDD_BAR")
-		(at 143.51 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dfca0f70-f209-459a-9ae6-91ac424f2c03")
-		(property "Reference" "#PWR011"
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AVDD"
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b3f10e5a-eb7d-4021-9ad9-84d62433aacb")
-		)
-		(instances
-			(project "pcb"
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/62333edd-4657-4eba-af02-f1a2ccf11978"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/637f91f8-8955-4909-a731-74f02db96a30"
-					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/9ded9969-db81-4c44-8826-b66b36ceedbd"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/7705e4fc-e17f-4c41-b261-76b196b33c88/d702a626-0c13-4ba8-8d7c-2b378978ef06"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)

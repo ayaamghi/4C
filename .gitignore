@@ -1,0 +1,37 @@
+.DS_Store
+
+# KiCad user/session state and transient files
+*.kicad_prl
+*.lck
+*~
+*-bak
+*.bak
+_autosave-*
+\#auto_saved_files\#
+*-backups/
+fp-info-cache
+jlcpcb/
+
+# KiCad reports and fabrication outputs
+*.rpt
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*-pos.csv
+*-all-pos.csv
+*-bom*.csv
+*-cpl*.csv
+4CPCB/pcb/pcb.csv
+4CPCB/pcb/report.txt
+
+# Local fabrication/export folders
+geber/
+gerber/
+gerbers/
+
+# Local datasheet copy
+C2927030.pdf
+
+# Local design notes
+docs/design.md

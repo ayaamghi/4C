@@ -1,0 +1,4 @@
+*.pdf binary
+*.step -diff
+*.stp -diff
+*.wrl -diff
