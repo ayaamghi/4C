@@ -35,7 +35,7 @@
 	(fp_circle (center -4.47 -2.74) (end -4.44 -2.74) (layer F.Fab) (width 0.06))
 	(fp_circle (center -2.89 -1.30) (end -2.77 -1.30) (layer Cmts.User) (width 0.25))
 	(fp_circle (center 2.89 -1.30) (end 3.01 -1.30) (layer Cmts.User) (width 0.25))
-	(model "/Users/ayaam/Hardware/4C/4CPCB/easyeda2kicad.3dshapes/TYPE-C-SMD_HX-TYPE-C-16PIN.wrl"
+	(model "${KIPRJMOD}/libs/easyeda2kicad.3dshapes/TYPE-C-SMD_HX-TYPE-C-16PIN.wrl"
 		(offset (xyz 0.000 -1.150 0.950))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

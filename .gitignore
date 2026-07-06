@@ -22,10 +22,10 @@ jlcpcb/
 *-all-pos.csv
 *-bom*.csv
 *-cpl*.csv
-4CPCB/pcb/pcb.csv
-4CPCB/pcb/report.txt
 
 # Local fabrication/export folders
+hardware/fab/
+hardware/_local/
 geber/
 gerber/
 gerbers/
