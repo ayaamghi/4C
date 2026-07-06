@@ -24,7 +24,9 @@ jlcpcb/
 *-cpl*.csv
 
 # Local fabrication/export folders
-hardware/fab/
+hardware/fab/*
+!hardware/fab/.gitkeep
+!hardware/fab/README.md
 hardware/_local/
 geber/
 gerber/
